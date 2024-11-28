@@ -1,0 +1,13 @@
+{
+  "ERR_UNKNOWN_ERROR_HAS_OCCURED": "Bilinmeyen bir hata oluştu",
+  "TURKISH": "Türkçe",
+  "ENGLISH": "English",
+  "BUTTON_START": "Başlat",
+  "BUTTON_STOP": "Durdur",
+  "SELECT_TR": "Türkçe",
+  "SELECT_EN": "English",
+  "APP_LANGUAGE": "Uygulama dili:",
+  "SPOKEN_LANGUAGE": "Konuşma dili:",
+  "CLEAR_TRANSCRIPT": "Metni Sil",
+  "ERR_SPEECH_RECOGNITION_NOT_SUPPORTED": "Tarayıcınız konuşma tanımayı desteklemiyor."
+}

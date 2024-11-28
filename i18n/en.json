@@ -1,0 +1,13 @@
+{
+  "ERR_UNKNOWN_ERROR_HAS_OCCURED": "Unknown error has occured",
+  "TURKISH": "Türkçe",
+  "ENGLISH": "English",
+  "BUTTON_START": "Start",
+  "BUTTON_STOP": "Stop",
+  "SELECT_TR": "Türkçe",
+  "SELECT_EN": "English",
+  "APP_LANGUAGE": "App Language:",
+  "SPOKEN_LANGUAGE": "Spoken Language:",
+  "CLEAR_TRANSCRIPT": "Clear Transcript",
+  "ERR_SPEECH_RECOGNITION_NOT_SUPPORTED": "Your browser doesn’t support speech recognition."
+}
