@@ -14,7 +14,7 @@ You can try the application [here](https://senoritadeveloper01.github.io/nils-sp
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-1.png" width="500" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-1.png" width="500" />
 
 <img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-2.png" width="500" />
 
