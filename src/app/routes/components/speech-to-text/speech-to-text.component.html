@@ -1,0 +1,40 @@
+<div [ngClass]="{ 'd-flex justify-content-center align-items-start min-vh-100 overflow-auto': !deviceDetectorService.isMobile() }">
+  <div [ngClass]="{ 'mt-5': !deviceDetectorService.isMobile() }">
+    <div class="card m-2 p-3">
+      <div class="d-flex pb-3">
+        <div class="d-flex align-items-center" [ngClass]="{ 'flex-column': deviceDetectorService.isMobile() }">
+          <span class="h6 mb-0">{{ 'APP_LANGUAGE' | translate }}</span>
+          <app-language></app-language>
+        </div>
+        <div class="vr mx-2"></div>
+        <div class="d-flex align-items-center ms-2" [ngClass]="{ 'flex-column': deviceDetectorService.isMobile() }">
+          <span class="h6 mb-0">{{ 'SPOKEN_LANGUAGE' | translate }}</span>
+          <app-speech-language></app-speech-language>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        @if (!isListening) {
+          <button type="button" class="btn btn-primary me-2" (click)="startListening()">
+            <span class="px-2">{{ 'BUTTON_START' | translate }}</span>
+          </button>
+        } @else {
+          <button type="button" class="btn btn-danger me-2" (click)="stopListening()">
+            <span class="px-2">{{ 'BUTTON_STOP' | translate }}</span>
+          </button>
+        }
+      </div>
+    </div>
+    @if (transcript) {
+      <div class="card m-2">
+        <div class="transcript-container card text-wrap bg-light m-2 p-2">{{ transcript }}</div>
+        @if (!isListening) {
+          <div class="d-flex justify-content-center m-3">
+            <button type="button" class="btn btn-danger" (click)="clearTranscript()">
+              <span class="px-2">{{ 'CLEAR_TRANSCRIPT' | translate }}</span>
+            </button>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</div>

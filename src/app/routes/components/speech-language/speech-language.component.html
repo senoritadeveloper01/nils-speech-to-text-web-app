@@ -1,0 +1,23 @@
+@if (speechLanguageStorage.getLanguage()) {
+  <div>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">{{ speechLanguageStorage.getLanguage() }}</button>
+        @if (languages) {
+          <ul class="dropdown-menu">
+            @for (language of languages; track language.value) {
+              <li>
+                <a class="dropdown-item" (click)="setLanguage(language.value)">
+                  {{ language.key }}
+                  @if (speechLanguageStorage.getLanguage() === language.value) {
+                    <i class="bi bi-check2"></i>
+                  }
+                </a>
+              </li>
+            }
+          </ul>
+        }
+      </li>
+    </ul>
+  </div>
+}

@@ -1,6 +1,16 @@
-# NilsSpeechToTextWebApp
+# In-Browser Speech to Text Web App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+This is an in-browser speech to text application using the Web Speech API. This project was developed with Angular v19 and Bootstrap.
+
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)
+
+You can visit my [Medium](https://senoritadeveloper.medium.com/in-browser-speech-to-text-using-the-web-speech-api-7cc67a989406) post to find a short overview of the Web Speech API.
+
+You can try the application [here](https://senoritadeveloper01.github.io/nils-speech-to-text-web-app/text-to-speech)
 
 ## Development server
 
@@ -12,48 +22,46 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Screenshots
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-1.png" width="500" />
 
-```bash
-ng generate component component-name
-```
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-2.png" width="500" />
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-3.png" width="500" />
 
-```bash
-ng generate --help
-```
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-4.png" width="500" />
 
-## Building
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-5.png" width="500" />
 
-To build the project run:
+## Build:
+
+To install project dependencies (--legacy-peer-deps is required since some dependencies still depend on Angular v18 packages):
 
 ```bash
-ng build
+npm i --legacy-peer-deps
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Development server
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Run the following command. You can change port.
 
 ```bash
-ng test
+ng serve --configuration=development --port 4200
 ```
 
-## Running end-to-end tests
+You can then visit [http://localhost:4202](http://localhost:4200) to run the app on your browser.
 
-For end-to-end (e2e) testing, run:
+## Contributors
 
-```bash
-ng e2e
-```
+<img src="https://readme-typing-svg.demolab.com?font=Open+Sans&size=16&pause=1000&color=A6F73F&height=50&width=200&lines=Nil+Seri"/>
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+[Github 1](https://github.com/senoritadeveloper01)
 
-## Additional Resources
+[Github 2](https://github.com/nilseri01)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[Medium](https://senoritadeveloper.medium.com/)
+
+## Copyright & Licensing Information
+
+This project is licensed under the terms of the MIT license.
