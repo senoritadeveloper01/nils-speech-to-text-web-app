@@ -12,27 +12,17 @@ You can visit my [Medium](https://senoritadeveloper.medium.com/in-browser-speech
 
 You can try the application [here](https://senoritadeveloper01.github.io/nils-speech-to-text-web-app/text-to-speech)
 
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
 ## Screenshots
 
 <img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-1.png" width="500" />
 
-<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-2.png" width="500" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-2.png" width="500" />
 
-<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-3.png" width="500" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-3.png" width="500" />
 
-<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-4.png" width="500" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-4.png" width="500" />
 
-<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-app/main/screenshots/screenshot-5.png" width="500" />
+<img src="https://raw.githubusercontent.com/senoritadeveloper01/nils-speech-to-text-web-app/main/screenshots/screenshot-5.png" width="500" />
 
 ## Build:
 
